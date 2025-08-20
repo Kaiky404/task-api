@@ -1,5 +1,6 @@
-# Node modules
+# Node modules and safety
 node_modules/
+config/
 
 # Logs
 logs
