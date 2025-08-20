@@ -1,6 +1,6 @@
 import express from 'express';
-import User from '../models/users.js'
-import auth from '../middleware/auth.js'
+import User from '../../src/models/users.js'
+import auth from '../../src/middleware/auth.js'
 import multer from 'multer'
 import  sharp from 'sharp'
 const router = new express.Router()

@@ -1,7 +1,7 @@
 import express from 'express'
 import './db/mongoose.js'
-import userRouter from './routers/user.js'
-import taskRouter from './routers/task.js'
+import userRouter from '../api/routers/user.js'
+import taskRouter from '../api/routers/task.js'
 
 const app = express()
 const port = process.env.PORT
